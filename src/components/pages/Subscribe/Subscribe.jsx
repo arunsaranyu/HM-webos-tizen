@@ -10,8 +10,8 @@ const Subscribe = () => {
     const subUrl = useSelector((state) => state?.common?.appConfig?.params_hash2?.config_params?.subscription_url)
     return (
         <div className='plans-subscribe'>
-            <h1 className='sub-heading'>Subscribe to Tarang plus to watch all the premium content On your phone or computer go to:</h1>
-            <p className='sub-url'>{"https://tarangplus.in/plans"}</p>
+            <h1 className='sub-heading'>Subscribe to Hello Meghalaya to watch all the premium content On your phone or computer go to:</h1>
+            <p className='sub-url'>{"https://Hello Meghalaya.in/plans"}</p>
         </div>
     )
 }

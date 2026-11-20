@@ -11,14 +11,14 @@ const Privacycontent = (props) => {
         Last updated: April 15, 2026 | Effective Date: April 15, 2026 | Governed by laws of India
       </p>
       <p>
-        We, <span style={{ color: '#fff', fontWeight: '600' }}>Odisha Television Limited</span> ("we", "us", "our", or "Company"), value the trust placed in us by You and therefore follow the highest standards of privacy guidelines to protect the information shared by You with us. This Privacy Policy ("Privacy Policy") governs the use of Personal Information shared with or collected by Odisha Television Limited from users or subscribers of <span style={{ color: '#fff', fontWeight: '600' }}>Tarang Plus</span>, accessible at <span style={{ color: '#fff', fontWeight: '600' }}>tarangplus.in</span>.
+        We, <span style={{ color: '#fff', fontWeight: '600' }}>Odisha Television Limited</span> ("we", "us", "our", or "Company"), value the trust placed in us by You and therefore follow the highest standards of privacy guidelines to protect the information shared by You with us. This Privacy Policy ("Privacy Policy") governs the use of Personal Information shared with or collected by Odisha Television Limited from users or subscribers of <span style={{ color: '#fff', fontWeight: '600' }}>Hello Meghalaya</span>, accessible at <span style={{ color: '#fff', fontWeight: '600' }}>Hello Meghalaya.in</span>.
       </p>
       <p>
         This Privacy Policy is compliant with the Information Technology Act, 2000 (as amended), the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011 ("SPDI Rules"), the Information Technology (Intermediaries Guidelines) Rules, 2011, and the Digital Personal Data Protection Act, 2023 ("DPDP Act"), as applicable.
       </p>
       <p>
         <span style={{ color: '#fff', fontWeight: '600' }}>Your consent: </span>
-        Your viewing, browsing, or use of Tarang Plus and our services constitutes Your consent to our collection, storage, processing, and transfer of Your Personal Information or Sensitive Personal Data or Information in accordance with this Privacy Policy. If You do not agree with the terms herein, please do not download, browse, or use Tarang Plus. This Privacy Policy should be read in conjunction with our Terms and Conditions. All capitalised terms not defined herein shall have the same meaning as in the Terms of Use.
+        Your viewing, browsing, or use of Hello Meghalaya and our services constitutes Your consent to our collection, storage, processing, and transfer of Your Personal Information or Sensitive Personal Data or Information in accordance with this Privacy Policy. If You do not agree with the terms herein, please do not download, browse, or use Hello Meghalaya. This Privacy Policy should be read in conjunction with our Terms and Conditions. All capitalised terms not defined herein shall have the same meaning as in the Terms of Use.
       </p>
 
       <h3 className="sub-title">Table of Contents</h3>
@@ -66,7 +66,7 @@ const Privacycontent = (props) => {
 
       <h3 className="sub-title">2. Information We Collect</h3>
       <p>
-        We collect information directly provided by You, Your usage and log data, and data collected through cookies and similar technologies. Specifically, we collect the following categories of information when You use or browse Tarang Plus, at the time of registration, and when You share information with us through email, customer care, or any other means made available by us:
+        We collect information directly provided by You, Your usage and log data, and data collected through cookies and similar technologies. Specifically, we collect the following categories of information when You use or browse Hello Meghalaya, at the time of registration, and when You share information with us through email, customer care, or any other means made available by us:
       </p>
       <table style={{ width: '100%', borderCollapse: 'collapse', margin: '15px 0' }}>
         <thead>
@@ -94,7 +94,7 @@ const Privacycontent = (props) => {
           </tr>
           <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
             <td style={{ padding: '8px 12px', color: '#fff', verticalAlign: 'top' }}>Usage and Behavioural Data</td>
-            <td style={{ padding: '8px 12px', verticalAlign: 'top' }}>Content viewed, watch history, search queries, time spent, content preferences, referral source (platform visited before/after Tarang Plus)</td>
+            <td style={{ padding: '8px 12px', verticalAlign: 'top' }}>Content viewed, watch history, search queries, time spent, content preferences, referral source (platform visited before/after Hello Meghalaya)</td>
           </tr>
           <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
             <td style={{ padding: '8px 12px', color: '#fff', verticalAlign: 'top' }}>Location Data</td>
@@ -106,7 +106,7 @@ const Privacycontent = (props) => {
           </tr>
           <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
             <td style={{ padding: '8px 12px', color: '#fff', verticalAlign: 'top' }}>Communications</td>
-            <td style={{ padding: '8px 12px', verticalAlign: 'top' }}>Messages sent to our support team, emails, letters, feedback, and messages posted on boards or social media connected to Tarang Plus</td>
+            <td style={{ padding: '8px 12px', verticalAlign: 'top' }}>Messages sent to our support team, emails, letters, feedback, and messages posted on boards or social media connected to Hello Meghalaya</td>
           </tr>
           <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
             <td style={{ padding: '8px 12px', color: '#fff', verticalAlign: 'top' }}>Social Login Data</td>
@@ -120,10 +120,10 @@ const Privacycontent = (props) => {
 
       <h3 className="sub-title">3. Inferred Information Through Usage and Log Data</h3>
       <p>
-        We may track certain information about You based upon Your behaviour, usage patterns, and preferences on Tarang Plus. We use this information to conduct internal research on our users' demographics, devices, interests, and behaviour to better understand, protect, and serve our users. This information is compiled and analysed on an aggregated basis and may include:
+        We may track certain information about You based upon Your behaviour, usage patterns, and preferences on Hello Meghalaya. We use this information to conduct internal research on our users' demographics, devices, interests, and behaviour to better understand, protect, and serve our users. This information is compiled and analysed on an aggregated basis and may include:
       </p>
       <ul style={{ paddingLeft: '20px', marginBottom: '15px' }}>
-        <li>The platform You visited before and after Tarang Plus.</li>
+        <li>The platform You visited before and after Hello Meghalaya.</li>
         <li>Your computer or device browser information.</li>
         <li>Traffic patterns and network behaviour on our platform.</li>
       </ul>
@@ -136,24 +136,24 @@ const Privacycontent = (props) => {
         <li>Tailor Your experience and display content according to Your preferences.</li>
       </ul>
       <p>
-        We identify and use Your IP address to help diagnose server issues, administer Tarang Plus, and gather broad demographic information to customise Your experience. As Non-Personal Information does not personally identify You, we may use and disclose Non-Personal Information at our discretion.
+        We identify and use Your IP address to help diagnose server issues, administer Hello Meghalaya, and gather broad demographic information to customise Your experience. As Non-Personal Information does not personally identify You, we may use and disclose Non-Personal Information at our discretion.
       </p>
       <p>
-        If You send us personal correspondence such as emails or letters, or if other users or third parties send us correspondence about Your activities or postings on Tarang Plus, we may collect and store such information to resolve disputes, provide customer support, and troubleshoot problems as permitted by law.
+        If You send us personal correspondence such as emails or letters, or if other users or third parties send us correspondence about Your activities or postings on Hello Meghalaya, we may collect and store such information to resolve disputes, provide customer support, and troubleshoot problems as permitted by law.
       </p>
 
       <h3 className="sub-title">4. Cookies and Tracking Technologies</h3>
       <p>
         A "cookie" is a small piece of information stored by a web server on a web browser so it can be later read back from that browser. Cookies are useful for enabling the browser to remember information specific to a given user. We place both permanent and temporary cookies on Your device. The cookies do not contain any of Your personally identifiable information on their own.
       </p>
-      <p>We use cookies, web beacons, and similar tracking technologies on Tarang Plus. These may include:</p>
+      <p>We use cookies, web beacons, and similar tracking technologies on Hello Meghalaya. These may include:</p>
       <ul style={{ paddingLeft: '20px', marginBottom: '15px' }}>
         <li><span style={{ color: '#fff', fontWeight: '600' }}>Essential cookies: </span> Required for the platform to function correctly, including login sessions and user preferences.</li>
         <li><span style={{ color: '#fff', fontWeight: '600' }}>Analytics cookies: </span> To understand how users interact with the platform, analyse traffic, and improve our services.</li>
         <li><span style={{ color: '#fff', fontWeight: '600' }}>Marketing cookies: </span> To serve relevant advertisements and promotional content (if applicable).</li>
       </ul>
       <p>
-        We may combine Your Personal Information or Sensitive Personal Data or Information with information collected from tracking technologies and aggregate it with information collected from other users to attempt to provide You with a better experience on Tarang Plus.
+        We may combine Your Personal Information or Sensitive Personal Data or Information with information collected from tracking technologies and aggregate it with information collected from other users to attempt to provide You with a better experience on Hello Meghalaya.
       </p>
       <p>
         You may manage cookie preferences through Your browser settings. Disabling certain cookies may affect the functionality of the platform.
@@ -161,14 +161,14 @@ const Privacycontent = (props) => {
 
       <h3 className="sub-title">5. Payment Information and Third-Party Payment Gateways</h3>
       <p>
-        Tarang Plus uses third-party payment gateway providers to process and facilitate the payment of Your Subscription Fee. Please note that <span style={{ color: '#fff', fontWeight: '600' }}>Odisha Television Limited does not directly collect any financial information</span> such as credit card, debit card, or net banking details from You. Such financial information is collected and stored by our payment gateway partners.
+        Hello Meghalaya uses third-party payment gateway providers to process and facilitate the payment of Your Subscription Fee. Please note that <span style={{ color: '#fff', fontWeight: '600' }}>Odisha Television Limited does not directly collect any financial information</span> such as credit card, debit card, or net banking details from You. Such financial information is collected and stored by our payment gateway partners.
       </p>
       <p>
         When You visit such payment gateways, You do so at Your own risk. These payment gateways may have their own privacy policies in place, which we recommend You review prior to providing information or entering into any transactions with them. We do not assume any responsibility or liability for such payment gateways, their content, or their privacy practices, nor do we endorse them.
       </p>
       <p>You understand, agree, and acknowledge that:</p>
       <ul style={{ paddingLeft: '20px', marginBottom: '15px' }}>
-        <li>Tarang Plus never directly receives Your financial or payment information (credit/debit card numbers, net banking credentials, UPI handles) from these gateways.</li>
+        <li>Hello Meghalaya never directly receives Your financial or payment information (credit/debit card numbers, net banking credentials, UPI handles) from these gateways.</li>
         <li>Your Personal Information, Sensitive Personal Data or Information, and financial information will be dealt with by payment gateways in accordance with their respective privacy policies and terms.</li>
         <li>Odisha Television Limited shall not be liable, accountable, or responsible for Your financial information which You provide to such payment gateways.</li>
         <li>Information stored by our payment gateway partners may include transaction IDs and payment method types (e.g., UPI, card, wallet) which we receive solely for subscription management and support purposes.</li>
@@ -176,7 +176,7 @@ const Privacycontent = (props) => {
 
       <h3 className="sub-title">6. Social Login and Third-Party Service Integration</h3>
       <p>
-        If You choose to log in, access, or otherwise connect to Tarang Plus through a third-party service (such as Google, Facebook, or similar platforms), we may collect:
+        If You choose to log in, access, or otherwise connect to Hello Meghalaya through a third-party service (such as Google, Facebook, or similar platforms), we may collect:
       </p>
       <ul style={{ paddingLeft: '20px', marginBottom: '15px' }}>
         <li>Your user ID and username associated with that service.</li>
@@ -189,10 +189,10 @@ const Privacycontent = (props) => {
 
       <h3 className="sub-title">7. User Consent</h3>
       <p>
-        You expressly understand, agree, and acknowledge that our collection, storage, and processing of Your Personal Information or Sensitive Personal Data or Information is for a lawful purpose connected with a function or activity of the Tarang Plus platform. You hereby consent to the collection, storage, use, disclosure, and transfer of Your Personal Information or Sensitive Personal Data or Information by Tarang Plus or Odisha Television Limited for the purposes set out in this Privacy Policy.
+        You expressly understand, agree, and acknowledge that our collection, storage, and processing of Your Personal Information or Sensitive Personal Data or Information is for a lawful purpose connected with a function or activity of the Hello Meghalaya platform. You hereby consent to the collection, storage, use, disclosure, and transfer of Your Personal Information or Sensitive Personal Data or Information by Hello Meghalaya or Odisha Television Limited for the purposes set out in this Privacy Policy.
       </p>
       <p>
-        You further understand, agree, and acknowledge that Your Personal Information, which is classified as Sensitive Personal Data or Information as per applicable laws, is considered necessary for Tarang Plus to provide various services on its platform to You, and for Your usage of the platform and other services provided by Tarang Plus. You affirmatively give consent to Tarang Plus for collecting, storing, transferring, and processing Your Personal Information for these purposes.
+        You further understand, agree, and acknowledge that Your Personal Information, which is classified as Sensitive Personal Data or Information as per applicable laws, is considered necessary for Hello Meghalaya to provide various services on its platform to You, and for Your usage of the platform and other services provided by Hello Meghalaya. You affirmatively give consent to Hello Meghalaya for collecting, storing, transferring, and processing Your Personal Information for these purposes.
       </p>
       <p>
         You also expressly provide Your consent to us for sharing Your Personal Information with third parties for marketing and advertising purposes, as described in Section 10 of this Privacy Policy.
@@ -200,10 +200,10 @@ const Privacycontent = (props) => {
 
       <h3 className="sub-title">8. How We Use Your Information</h3>
       <p>
-        We collect and use Your Personal Information to provide You with a safe, efficient, smooth, and customised experience on Tarang Plus. Specifically, we use Your information for the following purposes:
+        We collect and use Your Personal Information to provide You with a safe, efficient, smooth, and customised experience on Hello Meghalaya. Specifically, we use Your information for the following purposes:
       </p>
       <ul style={{ paddingLeft: '20px', marginBottom: '15px' }}>
-        <li>To create, manage, authenticate, and administer Your account on Tarang Plus.</li>
+        <li>To create, manage, authenticate, and administer Your account on Hello Meghalaya.</li>
         <li>To process subscription payments and manage recurring mandates including UPI AutoPay.</li>
         <li>To personalise Your content recommendations and overall viewing experience.</li>
         <li>To send transactional communications such as payment receipts, subscription renewal alerts, and service notifications.</li>
@@ -245,16 +245,16 @@ const Privacycontent = (props) => {
 
       <h3 className="sub-title">11. Third-Party Sites</h3>
       <p>
-        Tarang Plus may provide links to various third-party websites that may collect Your Personal Information. Use of Your information collected by such third-party platforms will be governed by the privacy policies of those platforms. Odisha Television Limited has no control over the operation of such third-party websites. You may share information with such third parties at Your sole risk, and Odisha Television Limited shall not be liable to You for any misappropriation of Your Personal Information by such third parties.
+        Hello Meghalaya may provide links to various third-party websites that may collect Your Personal Information. Use of Your information collected by such third-party platforms will be governed by the privacy policies of those platforms. Odisha Television Limited has no control over the operation of such third-party websites. You may share information with such third parties at Your sole risk, and Odisha Television Limited shall not be liable to You for any misappropriation of Your Personal Information by such third parties.
       </p>
 
       <h3 className="sub-title">12. Promotional and Marketing Communications</h3>
       <p>
-        By accessing Tarang Plus, You expressly consent to receive promotional and marketing communications from us at regular intervals. We will send communications through various modes including SMS, in-app messages, push notifications, and email to notify You of, among other things, various offers, new content, exclusive deals, and new services that may be available.
+        By accessing Hello Meghalaya, You expressly consent to receive promotional and marketing communications from us at regular intervals. We will send communications through various modes including SMS, in-app messages, push notifications, and email to notify You of, among other things, various offers, new content, exclusive deals, and new services that may be available.
       </p>
       <p>
         <span style={{ color: '#fff', fontWeight: '600' }}>Opt-out: </span>
-        If You do not wish to receive any promotional communication from us, You may unsubscribe at any time by sending an email to <span style={{ color: '#fff', fontWeight: '600' }}>tarangplus@odishatv.in</span> with the subject line "Unsubscribe". Please allow up to 7 business days for Your request to be processed. Note that opting out of marketing communications will not affect transactional or service communications which are necessary for Your subscription.
+        If You do not wish to receive any promotional communication from us, You may unsubscribe at any time by sending an email to <span style={{ color: '#fff', fontWeight: '600' }}>Hello Meghalaya@odishatv.in</span> with the subject line "Unsubscribe". Please allow up to 7 business days for Your request to be processed. Note that opting out of marketing communications will not affect transactional or service communications which are necessary for Your subscription.
       </p>
 
       <h3 className="sub-title">13. Data Retention</h3>
@@ -264,11 +264,11 @@ const Privacycontent = (props) => {
 
       <h3 className="sub-title">14. Deleting Your Information</h3>
       <p>
-        If You wish to have the Personal Information or Sensitive Personal Data or Information that You have provided to us deleted, You may do so at any time by sending a request to <span style={{ color: '#fff', fontWeight: '600' }}>tarangplus@odishatv.in</span> with the subject line "Data Deletion Request".
+        If You wish to have the Personal Information or Sensitive Personal Data or Information that You have provided to us deleted, You may do so at any time by sending a request to <span style={{ color: '#fff', fontWeight: '600' }}>Hello Meghalaya@odishatv.in</span> with the subject line "Data Deletion Request".
       </p>
       <p>
         <span style={{ color: '#fff', fontWeight: '600' }}>Please note: </span>
-        Deletion of certain Personal Information may lead to cancellation of Your registration with Tarang Plus, restriction of access to certain features, or a complete cessation of Your access to the Tarang Plus platform or application. Certain data may also be retained by us for legal, audit, or regulatory compliance purposes even after a deletion request.
+        Deletion of certain Personal Information may lead to cancellation of Your registration with Hello Meghalaya, restriction of access to certain features, or a complete cessation of Your access to the Hello Meghalaya platform or application. Certain data may also be retained by us for legal, audit, or regulatory compliance purposes even after a deletion request.
       </p>
 
       <h3 className="sub-title">15. Data Security and Compliance</h3>
@@ -288,7 +288,7 @@ const Privacycontent = (props) => {
         However, we shall not be responsible for any breach of security or disclosure of Personal Information for reasons outside our control, including hacking, social engineering, cyber terrorism, espionage by third parties, or any Force Majeure events such as sabotage, fire, flood, explosion, acts of God, civil commotion, strikes or industrial action, riots, insurrection, war, or acts of government.
       </p>
       <p>
-        Unfortunately, no security measures can be guaranteed to provide 100% protection. Accordingly, we cannot guarantee the security of Your information. By continuing to access Tarang Plus, You acknowledge and accept this inherent risk.
+        Unfortunately, no security measures can be guaranteed to provide 100% protection. Accordingly, we cannot guarantee the security of Your information. By continuing to access Hello Meghalaya, You acknowledge and accept this inherent risk.
       </p>
 
       <h3 className="sub-title">16. Your Rights as a Data Principal</h3>
@@ -303,12 +303,12 @@ const Privacycontent = (props) => {
         <li><span style={{ color: '#fff', fontWeight: '600' }}>Right to Grievance Redressal: </span> Lodge a grievance with our Grievance Officer (see Section 19).</li>
       </ul>
       <p>
-        To exercise any of the above rights, please contact us at <span style={{ color: '#fff', fontWeight: '600' }}>tarangplus@odishatv.in</span>. We will respond to Your request within 30 days of receipt.
+        To exercise any of the above rights, please contact us at <span style={{ color: '#fff', fontWeight: '600' }}>Hello Meghalaya@odishatv.in</span>. We will respond to Your request within 30 days of receipt.
       </p>
 
       <h3 className="sub-title">17. Children's Privacy</h3>
       <p>
-        The Tarang Plus platform is not directed to children under the age of 13. We do not knowingly collect Personal Information from children under 13 years of age. If You are a parent or guardian and believe that a child under 13 has provided us with Personal Information, please contact us at <span style={{ color: '#fff', fontWeight: '600' }}>tarangplus@odishatv.in</span> and we will take prompt steps to delete such information from our records.
+        The Hello Meghalaya platform is not directed to children under the age of 13. We do not knowingly collect Personal Information from children under 13 years of age. If You are a parent or guardian and believe that a child under 13 has provided us with Personal Information, please contact us at <span style={{ color: '#fff', fontWeight: '600' }}>Hello Meghalaya@odishatv.in</span> and we will take prompt steps to delete such information from our records.
       </p>
 
       <h3 className="sub-title">18. Amendments to This Policy</h3>
@@ -316,7 +316,7 @@ const Privacycontent = (props) => {
         This Privacy Policy is subject to change from time to time. We reserve the right, at our sole discretion, to modify the terms of this Privacy Policy from time to time in order to ensure compliance with applicable laws ("Updated Terms"). The Updated Terms shall be effective immediately and shall supersede the prior terms of this Privacy Policy.
       </p>
       <p>
-        We shall not be under an obligation to notify You of any changes to this Privacy Policy. You are solely responsible for reviewing this Privacy Policy from time to time for any modifications. By continuing to use Tarang Plus after the Updated Terms have been published, You affirm Your agreement to the Updated Terms.
+        We shall not be under an obligation to notify You of any changes to this Privacy Policy. You are solely responsible for reviewing this Privacy Policy from time to time for any modifications. By continuing to use Hello Meghalaya after the Updated Terms have been published, You affirm Your agreement to the Updated Terms.
       </p>
 
       <h3 className="sub-title">19. Grievance Officer</h3>
@@ -325,7 +325,7 @@ const Privacycontent = (props) => {
       </p>
       <div style={{ backgroundColor: 'rgba(255,255,255,0.05)', padding: '16px', borderRadius: '8px', margin: '15px 0' }}>
         <p style={{ margin: '4px 0 10px 0', color: '#fff', fontWeight: '600', fontSize: '1.05em' }}>
-          Grievance Officer – Tarang Plus
+          Grievance Officer – Hello Meghalaya
         </p>
         <p style={{ margin: '0 0 12px 0', color: 'rgba(255,255,255,0.65)', fontSize: '0.9em', fontStyle: 'italic' }}>
           As required under the Information Technology Act, 2000 and IT Rules, 2011
@@ -333,7 +333,7 @@ const Privacycontent = (props) => {
         <p style={{ margin: '4px 0' }}><span style={{ color: '#fff', fontWeight: '600' }}>Name: </span> Manoj Panigrahi</p>
         <p style={{ margin: '4px 0' }}><span style={{ color: '#fff', fontWeight: '600' }}>Designation: </span> Senior Manager, Compliance</p>
         <p style={{ margin: '4px 0' }}><span style={{ color: '#fff', fontWeight: '600' }}>Organisation: </span> Odisha Television Limited</p>
-        <p style={{ margin: '4px 0' }}><span style={{ color: '#fff', fontWeight: '600' }}>Email: </span> tarangplus@odishatv.in</p>
+        <p style={{ margin: '4px 0' }}><span style={{ color: '#fff', fontWeight: '600' }}>Email: </span> Hello Meghalaya@odishatv.in</p>
         <p style={{ margin: '4px 0' }}><span style={{ color: '#fff', fontWeight: '600' }}>WhatsApp / Phone: </span> +91 – 7077710423</p>
         <p style={{ margin: '4px 0' }}><span style={{ color: '#fff', fontWeight: '600' }}>Address: </span> N/28-30/1, Chandaka Industrial Estate, Prasanti Vihar, Patia, Bhubaneswar, Odisha 751024</p>
       </div>
@@ -344,12 +344,12 @@ const Privacycontent = (props) => {
       <h3 className="sub-title">20. Contact Us</h3>
       <p>If You require any information or clarification regarding the use of Your Personal Information or this Privacy Policy, please contact us at:</p>
       <ul style={{ paddingLeft: '20px', marginBottom: '15px' }}>
-        <li><span style={{ color: '#fff', fontWeight: '600' }}>Email: </span> tarangplus@odishatv.in</li>
+        <li><span style={{ color: '#fff', fontWeight: '600' }}>Email: </span> Hello Meghalaya@odishatv.in</li>
         <li><span style={{ color: '#fff', fontWeight: '600' }}>Phone: </span> 7077710423</li>
         <li><span style={{ color: '#fff', fontWeight: '600' }}>Address: </span> N/28-30/1, Chandaka Industrial Estate, Prasanti Vihar, Patia, Bhubaneswar, Odisha 751024</li>
       </ul>
       <p>
-        Odisha Television Limited is a company based in India, registered under the Companies Act, 1956. By browsing or using Tarang Plus, You hereby acknowledge that Odisha Television Limited is not responsible or liable in any manner to comply with any local laws of Your territory outside India with respect to Tarang Plus.
+        Odisha Television Limited is a company based in India, registered under the Companies Act, 1956. By browsing or using Hello Meghalaya, You hereby acknowledge that Odisha Television Limited is not responsible or liable in any manner to comply with any local laws of Your territory outside India with respect to Hello Meghalaya.
       </p>
     </div>
   );

@@ -1,7 +1,7 @@
 {
-  "name": "Tarang-webos-tizen",
+  "name": "HelloMeghalaya-webos-tizen",
   "version": "1.0.0",
-  "description": "Tarang plus",
+  "description": "Hello Meghalaya",
   "main": "index.js",
   "author": "Ramana Ala",
   "license": "ISC",

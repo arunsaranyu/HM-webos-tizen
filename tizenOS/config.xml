@@ -12,7 +12,7 @@
     <tizen:metadata key="http://samsung.com/tv/metadata/devel.api.version" value="2.4"/>
     <tizen:metadata key="http://samsung.com/tv/metadata/prelaunch.support" value="false"/>
     <tizen:metadata key="http://samsung.com/tv/metadata/search.format" value="{&quot;assetId&quot;:&quot;%%CONTENT_ID%%&quot;}"/>
-    <name>Tarang plus </name>
+    <name>Hello Meghalaya </name>
     <tizen:privilege name="http://tizen.org/privilege/appmanager.kill"/>
     <tizen:privilege name="http://developer.samsung.com/privilege/widgetdata"/>
     <tizen:privilege name="http://tizen.org/privilege/application.launch"/>

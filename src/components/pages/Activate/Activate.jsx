@@ -119,7 +119,7 @@ const Activate = () => {
           <div className="parent-container">
             <div className='login-container-activate'>
               <h3>Activate TV</h3>
-              <h1>Welcome To Tarang plus</h1>
+              <h1>Welcome To Hello Meghalaya</h1>
             </div>
             <div className="activate-card-container">
               <div className="activate-card-content" ref={ref}>

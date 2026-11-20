@@ -42,7 +42,7 @@ var APP_ORIGIN = (function () {
       return window.location.origin;
     }
   }
-  return 'https://tarangplus.in';
+  return 'https://HelloMeghalaya.in';
 })();
 
 const YoutubePlayer = ({ videoId, title, onEnded, onExit }) => {

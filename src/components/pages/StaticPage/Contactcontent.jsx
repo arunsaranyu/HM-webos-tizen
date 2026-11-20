@@ -13,14 +13,14 @@ const Contactcontent = (props) => {
         <h3 className="sub-title" style={{ margin: 0 }}>Contact Us</h3>
       </div>
       <p>
-        Welcome to TarangPlus! If you have any questions, feedback, or need assistance regarding your subscription, account, or video playback, please feel free to reach out to our customer support team.
+        Welcome to Hello Meghalaya! If you have any questions, feedback, or need assistance regarding your subscription, account, or video playback, please feel free to reach out to our customer support team.
       </p>
 
       <h3 className="sub-title">Customer Support</h3>
       <div style={{ backgroundColor: 'rgba(255,255,255,0.05)', padding: '16px', borderRadius: '8px', margin: '15px 0' }}>
         <p style={{ margin: '4px 0' }}>
           <span style={{ color: '#fff', fontWeight: '600' }}>Email: </span>
-          tarangplus@odishatv.in
+          Hello Meghalaya@odishatv.in
         </p>
         <p style={{ margin: '4px 0' }}>
           <span style={{ color: '#fff', fontWeight: '600' }}>Phone / WhatsApp: </span>
@@ -32,7 +32,7 @@ const Contactcontent = (props) => {
         </p>
         <p style={{ margin: '4px 0' }}>
           <span style={{ color: '#fff', fontWeight: '600' }}>Official Website: </span>
-          www.tarangplus.in
+          www.Hello Meghalaya.in
         </p>
       </div>
 
@@ -67,7 +67,7 @@ const Contactcontent = (props) => {
         </p>
         <p style={{ margin: '4px 0' }}>
           <span style={{ color: '#fff', fontWeight: '600' }}>Email: </span>
-          tarangplus@odishatv.in
+          Hello Meghalaya@odishatv.in
         </p>
         <p style={{ margin: '4px 0' }}>
           <span style={{ color: '#fff', fontWeight: '600' }}>Phone / WhatsApp: </span>

@@ -6,7 +6,7 @@ export const userAgent = () => {
 
     if (!patternWebOS.test(appVersion) && !patternTizen.test(appVersion) && !patternWebOSTV.test(appVersion)) {
         // If the appVersion doesn't match WebOS or Tizen
-        window.location.href = "https://tarangplus.in/";
+        window.location.href = "https://HelloMeghalaya.in/";
     } // Replace with your desired URL
 
 }

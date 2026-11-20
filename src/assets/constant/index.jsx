@@ -1,5 +1,5 @@
 // --staging ---
-// export const endpoint = "https://staging.tarangplus.in/"
+// export const endpoint = "https://staging.Hello Meghalaya.in/"
 
 // --production-endpoint--
 export const endpoint = "https://ottapi.hellomeghalaya.in/"
