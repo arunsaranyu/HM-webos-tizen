@@ -1,0 +1,31 @@
+.progress-bar {
+  position: relative;
+  width: 70%;
+  height: 5px;
+  border-radius: 2px;
+  // opacity: 0.2;
+  border:1px solid #C2C4C6;
+}
+
+.filler {
+opacity: 100%;
+background: #FAFAFA 0% 0% no-repeat padding-box;
+height: 100%;
+border-radius: inherit;
+transition: width .2s ease-in;
+}
+
+.pBarExample{
+// padding-top: 3px;
+padding-left: 22px;
+// padding-right: 2px;
+margin-top:-18px;
+}
+
+@media screen and (max-width: 1300px) {
+.pBarExample{
+  padding-left: 18px;
+  margin-top:-8px;
+}
+
+}

@@ -1,0 +1,486 @@
+@import "../../../assets/css/colorandfunction.scss";
+@import "../../../assets/css/constant.scss";
+// .login-container{
+//     background-color:$bg-color ;
+//     height: 100vh;
+//     width: 100vw;
+//     display: flex;
+//     flex-direction: column
+
+// }
+// .login-heading{
+//     @include display_title(48px,0px,90px,bold,1.5,$color,$letter-spacing:-0.3px);
+//     padding-left: 90px;
+
+// }
+// .login-button-container{
+//     top: 30%;
+//     width: 30%;
+//     height: 100%;
+//     display: flex;
+//     flex-direction: column;
+
+//     position: relative;
+//     align-items: center;
+// }
+// .login-button-focused{
+//     @include button(80px,70%,12px,#D41F52 ,$color);
+//     @include display_title(32px,0px,0px,normal,32px,$color);
+//     margin-bottom:10px ;
+//     border: none
+// }
+// .login-button{
+//     @include button(80px,70%,12px, #FFFFFF3D  ,$color);
+//     @include display_title(32px,0px,0px,normal,32px,$color);
+//     margin-bottom:10px ;
+//     border: none;
+// }
+// .login-bottom-container{
+//     display: flex;
+//     flex-direction: row;
+//     height: 100%;
+// }
+// .horizontal-line {
+//     border-radius: 4px;
+//     border: 3px solid #666666;
+//     position: absolute;
+//     left: 30%;
+//     height: 57%;
+//     top: 19%;
+//   }
+//   .login-footer{
+//     p{
+//     @include display_title(28px,0px,0px,normal,32px,$color);
+//     text-align: center;
+//   margin-bottom:  3%;
+//   }
+// }
+// .blue-horizontal{
+// border: 1px dashed #1D94DB;
+// position: absolute;
+// left: 60%;
+// height: 30%;
+// top: 42%;
+// }
+// .login-span-step{
+//     @include display_title(32px,0px,0px,normal,32px,$color);
+//     margin-right :30px;
+//     margin-left: 30px
+
+// }
+// .login-span{
+//     @include display_title(32px,0px,0px,normal,32px,$color);
+
+// }
+// .qr-container{
+//     width: 70%;
+// }
+// .login-step1{
+//     margin: 5% 2%;
+// }
+// .login-or{
+//     @include display_title(32px,0px,0px,normal,32px,#1D94DB);
+//     margin: 8% 7%;
+// }
+// .token-display{
+//     // @include display_title(64px,0px,0px,normal,32px,#FCB813);
+// position: relative;
+// background-color: #222222  ;
+// top:5%;
+// border-radius: 24px;
+// letter-spacing: 10px;
+
+//     width: 80%;
+//     height: 128px;
+//     .activate-token{
+//         @include display_title(64px,0px,0px,normal,2,#FCB813);
+//         height: 128px;
+//         font-weight: 900;
+
+//         text-align: center;
+//         text-transform: uppercase;
+//         border-radius: 24px;
+
+//     }
+
+// }
+// .token{
+//     width :50%;
+// }
+// .token-card{
+//   display: flex;
+//   flex-direction: row;
+// height: 100%;
+// }
+// .qr-card{
+//     width: 50%;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center
+// }
+// .loginmobile-container{
+//     display: flex;
+//     flex-direction: column;
+//     /* justify-content: center; */
+//     align-items: center;
+//     position: relative;
+//     top: 27%;
+//     /* bottom: 20%; */
+//     right: 5%;
+//     width: 70%;
+//     height: 100%;
+//     input{
+//         border: none;
+//         color: #999999;
+//         @include display_title(32px,0px,0px,normal,32px,#999999);
+//         letter-spacing: -0.2px;
+//         background-color: transparent;
+//         height: 72px;
+//         border-bottom: 2px solid #666666;
+//     }
+// }
+// .login-shemaroo-logo{
+//     position: absolute;
+//     top :5%;
+//     right: 5%;
+//     img{
+//         width: 267px;
+//         height: 121px;
+//     }
+// }
+
+// .login-field-container{
+//     display: flex;
+//     flex-direction: row;
+// }
+// .country-code{
+//     @include display_title(32px,0px,0px,normal,32px,#999999);
+
+//     align-self: center;
+//     margin-right: 10%;
+//     height: 72px;
+//     padding: 3.5%;
+//     border-bottom: 2px solid #666666;
+// }
+// .button-mobile{
+//     background-color: #D41F52;
+//     border-radius: 54px;
+//     min-width:300px;
+//     @include display_title(32px,0px,0px,bold,32px,#ffffff);
+//     height: 80px;
+//     margin-top :4%
+// }
+// @media screen and (max-width: 1300px) {
+//     .login-shemaroo-logo{
+
+//         img{
+//             width: 165px;
+//             height: 80px;
+//         }
+//     }
+// }
+
+// .button-container{
+//     display: flex;
+//     flex-direction: row;
+// .button-mobile{
+//     background-color: #D41F52;
+//     border-radius: 54px;
+//     min-width:250px;
+//     @include display_title(32px,0px,0px,bold,32px,#ffffff);
+//     height: 80px;
+//     margin-top :8%;
+//     margin-right: 8%;
+// }
+// }
+
+// .shemaroo-tv{
+
+//     @include display_title(24px,0px,0px,normal,32px,#F05A21);
+// }
+// #shemaroome-tag{
+
+//     @include display_title(24px,0px,70px,normal,32px,#ffffff);
+//     font-weight: 900;
+//     text-align: center;
+// }
+// @media screen and (max-width: 1300px) {
+//     .horizontal-line{
+//         border-radius: 4px;
+//         border: 1px solid #666666;
+//         position: absolute;
+//         left: 30%;
+//         height: 57%;
+//         top: 19%;
+//     }
+//     .login-footer{
+//         p{
+//             @include display_title(19px,0px,0px,normal,32px,$color);
+//             text-align: center;
+//             margin-bottom:  2%;
+//         }
+//     }
+//     .blue-horizontal{
+//         border: 1px dashed #1D94DB;
+//         position: absolute;
+//         left: 61.7%;
+//         height: 30%;
+//         top: 42%;
+//         }
+//     .login-button-focused{
+//         @include button(60px,70%,12px,#D41F52 ,$color);
+//         @include display_title(21px,0px,0px,normal,32px,$color);
+//         margin-bottom:10px ;
+//     }
+//     .login-button{
+//         @include button(60px,70%,12px, #FFFFFF3D  ,$color);
+//         @include display_title(21px,0px,0px,normal,32px,$color);
+//         margin-bottom:10px ;
+//         border: none;
+//     }
+//     .login-heading{
+//         @include display_title(32px,0px,60px,bold,1.5,$color,$letter-spacing:-0.3px);
+//         padding-left: 60px;
+
+//     }
+//     .login-span-step{
+//         @include display_title(21px,0px,0px,normal,32px,$color);
+//     }
+//     .login-span{
+//         @include display_title(21px,0px,0px,normal,32px,$color);
+//     }
+//     .token-display{
+//         height: 82px;
+//     }
+//     .token-display .activate-token{
+//         @include display_title(42px,0px,0px,normal,2,#FCB813);
+//         height: 82px;
+//     }
+//     #shemaroome-tag{
+//         @include display_title(24px,0px,24px,normal,32px,#ffffff);
+//         font-weight: 900;
+//         text-align: center;
+//     }
+// }
+// .background-signin{
+//     background-color: #181D25;
+// }
+
+
+.input-login {
+  width: 90%;
+}
+.margin-tp-9 {
+  margin-top: 9%;
+}
+.margin-tp-0 {
+  margin-top: 0%;
+}
+.parent-container-login {
+  padding-left: 1%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding-left: 140px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(to right, #181d25);
+}
+.login-container {
+  height: 100vh;
+  display: flex;
+  width: 35%;
+  position: relative;
+  flex-direction: column;
+  // margin-top: 1.5rem;
+  justify-content: flex-start;
+  z-index: 1;
+
+  h3 {
+    font-size: 27px;
+    line-height: 1rem;
+    color: #c2c4c6;
+    line-height: 1.5;
+    font-weight: 300;
+    font-family:$font-family-regular;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 27px;
+    line-height: 1rem;
+    color: #c2c4c6;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    font-family: $font-family-lighter;
+  }
+  h1 {
+    font-size: 41px;
+    margin-bottom: 2rem;
+    color: #e1e1e2;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: $font-family-bold;
+  }
+  h5 {
+    font-size: 24px;
+    line-height: 2;
+    font-family: $font-family-bold;
+    color: #ffffffde;
+  }
+  //   .login-input{
+  //     font-size: 24px;
+  //     background-color: #2A2E32;
+  //     border: 1px solid #4D545C;
+  //     border-radius: 8px;
+  //     color: #FFFFFF99;
+  //     margin-bottom: 5px;
+  //     padding: 20px 30px;
+  //     width: 100%;
+  // }
+  // .login-input-focus{
+  //     font-size: 24px;
+  //     background-color:#454B52 ;
+  //     border: 1px solid #4D545C;
+  //     border-radius: 8px;
+  //     color: #FFFFFF99;
+  //     margin-bottom:5px;
+  //     padding: 20px 30px;
+  //     width: 100%;
+  // }
+
+  .login-button-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+
+    p {
+      font-size: 21px;
+      color: #c2c4c6;
+      margin-left: 5%;
+      line-height: 1.5;
+      margin-bottom: 0px;
+      font-family: $font-family-regular;
+      width: 55%;
+      align-self: center;
+    }
+  }
+  button {
+    // width: 85%;
+    margin: 0px;
+    // text-align: center;
+    // border: 1px solid red;
+    // padding: 0px 25px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .login-container {
+    width: 40%;
+    // margin-top: 5rem;
+    //  .login-input-focus{
+    //   font-size: 21px;
+    //   background-color:#454B52 ;
+    //   border: 1px solid #4D545C;
+    //   border-radius: 8px;
+    //   color: #FFFFFF99;
+    //   margin-bottom: 5%;
+    //   padding: 10px 15px;
+    //   width: 100%;
+    // }
+
+    h1 {
+      font-size: 27px;
+      margin-bottom: 3%;
+      color: #e1e1e2;
+      line-height: 1.5;
+    }
+    h2 {
+      font-size: 21px;
+      line-height: 1rem;
+      color: #c2c4c6;
+      line-height: 1.5;
+      margin-bottom: 3%;
+    }
+    h3 {
+      font-size: 21px;
+      color: #c2c4c6;
+      line-height: 1.5;
+      font-weight: 400;
+      margin-bottom: 3%;
+    }
+    h5 {
+      font-size: 17px;
+      margin-top: 1%;
+      line-height: 2;
+      margin-bottom: 0%;
+    }
+    .login-button-container {
+      display: flex;
+      flex-direction: row;
+      margin-top: 1rem;
+      p {
+        font-size: 14px;
+        color: #c2c4c6;
+        margin-left: 5%;
+        line-height: 1.5;
+        margin-bottom: 0px;
+        align-self: center;
+      }
+    }
+    .button-inactive {
+      height: 60px;
+      font-size: 14px;
+      border-radius: 0.5rem;
+      background-color: rgb(255 255 255 / 0%);
+      color: #ffffffdd;
+      padding: 12px 32px;
+      border: 0px;
+    }
+    .login-input {
+      font-size: 21px;
+      background-color: #2a2e32;
+      border: 1px solid #4d545c;
+      border-radius: 8px;
+      color: #ffffff99;
+      margin-bottom: 5%;
+      padding: 10px 15px;
+      width: 100%;
+    }
+  }
+  .login-button-focused {
+    height: 50px;
+    width: 100px;
+    font-size: 19px;
+    border-radius: 0.5rem;
+    background-color: #fccf1b;
+    color: #242424;
+  }
+}
+
+.phonenumber-container {
+  display: flex;
+  flex-direction: row;
+}
+.country-code {
+  p {
+    height: 83px;
+    background-color: #ffffff99;
+    padding: 17px 24px;
+    font-size: 27px;
+    font-weight: 300;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .country-code {
+    p {
+      font-size: 19px;
+      height: 60px;
+      padding: 12px 14px;
+    }
+  }
+}

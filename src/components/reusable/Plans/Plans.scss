@@ -1,0 +1,105 @@
+.plans-card{
+
+    h1
+    {
+        font-size:51px;
+        letter-spacing: 3.88px;
+        color: #FFFFFFDD;
+    }
+    p{
+    font-size:  27px;
+    letter-spacing: 1.08px;
+    color: #FFFFFF99;
+    }
+    h3{
+        color:#FFFFFFDD;
+        letter-spacing: 1.08px;
+        font-size: 27px;
+       
+    }
+}
+
+.plans-heading{
+    width: 35%;
+    h1{
+        font-size: 51px;
+        font-weight: 600;
+        letter-spacing: 3.88px;
+        color: #ffffffDE; 
+    }
+}
+
+.plans-focused{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: transparent linear-gradient(180deg, #4E5766 0%, #272C33 100%) 0% 0% no-repeat padding-box;
+    border-radius: 60px;
+    padding: 7% 7%; 
+    border: 2px solid #F5841F;
+    h3{
+        font-size:27px;
+        letter-spacing: 1.08px;
+        color:#FFFFFFDD;   
+    } 
+    .plansStrikedPrice{
+        font-size: 17px;
+      
+        padding-top: 9px;
+    }   
+}
+.plans-card{
+    display: flex;
+    padding: 7% 7%;
+    flex-direction: row;
+    justify-content: space-between; 
+    .plansStrikedPrice{
+        font-size: 17px;
+      
+        padding-top: 9px;
+    }  
+}
+
+
+@media screen and (max-width:1300px){
+    .plans-heading h1{
+        font-size: 31px; 
+        margin-top:2%;
+    }
+    .plans-card{
+        display: flex;
+        padding: 6% 3%;
+        flex-direction: row;
+        justify-content: space-between; 
+        h3{
+            font-size: 18px;
+        }
+        .plansStrikedPrice{
+            font-size: 11px;
+         
+            padding-top: 6px;
+        }  
+    }
+
+    .plans-focused{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background: transparent linear-gradient(180deg, #4E5766 0%, #272C33 100%) 0% 0% no-repeat padding-box;
+        border-radius: 40px;
+        padding: 6% 3%; 
+        border: 2px solid #F5841F;
+        h3{
+            font-size:18px;
+            letter-spacing: 1.08px;
+            color:#FFFFFFDD;   
+        } 
+        .plansStrikedPrice{
+            font-size: 11px;
+    
+            padding-top: 6px;
+        }   
+    }
+}

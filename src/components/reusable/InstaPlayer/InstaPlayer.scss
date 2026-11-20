@@ -1,0 +1,47 @@
+.instaPlayer {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect ratio Fix */
+    height: 0;
+    background: linear-gradient(360deg, rgb(24, 29, 37), rgba(24, 29, 37, 0)), linear-gradient(90deg, rgb(24, 29, 37), rgba(24, 29, 37, 0));
+
+}
+
+.instaPlayer .loader {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+// .instaPlayer .loader.isLoading .loading {
+//     border: 8px solid #f3f3f3;
+//     border-radius: 50%;
+//     border-top: 8px solid #F5841F;
+//     width: 80px;
+//     height: 80px;
+//     -webkit-animation: spin 2s linear infinite; /* Safari */
+//     animation: spin 2s linear infinite;
+//     z-index: 50;
+// }
+
+// /* Safari */
+// @-webkit-keyframes spin {
+//     0% { -webkit-transform: rotate(0deg); }
+//     100% { -webkit-transform: rotate(360deg); }
+// }
+
+// @keyframes spin {
+//     0% { transform: rotate(0deg); }
+//     100% { transform: rotate(360deg); }
+// }
+
+.instaPlayer .loader.isLoaded {
+    display: none;
+}

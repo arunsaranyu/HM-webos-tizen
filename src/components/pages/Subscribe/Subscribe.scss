@@ -1,0 +1,29 @@
+@import "../../../assets/css/function.scss";
+
+.plans-subscribe{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100vw;
+background-color: #181d25;
+}
+.sub-url{
+    @include h3_fullhd_display_title();
+    color:  #fccf1b;
+    font-family: $font-family-semibold;
+}
+.sub-heading{
+    font-family: $font-family-regular;
+    margin: 0.5rem;
+    @include h3_fullhd_display_title();
+}
+@media only screen and (max-width:1300px){
+    .sub-heading{
+        @include h4_hd_display_title();
+    }
+    .sub-url{
+        @include h4_hd_display_title();
+    }
+}

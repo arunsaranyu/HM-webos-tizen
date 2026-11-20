@@ -1,0 +1,160 @@
+@import "../../../assets/css/constant.scss";
+
+.main-card {
+  font-family: $font-family;
+}
+.setting-title {
+  padding-left: 162px;
+  padding-top: 153px;
+  color: #e1e1e2;
+  display: inline-block;
+  width: 40%;
+  // border: 1px solid blue;
+  text-align: left;
+}
+
+.Title {
+  width: auto;
+  height: auto;
+  text-align: left;
+  letter-spacing: 2.46px;
+  font-size: 41px;
+  font-family: $font-family-bold;
+  // margin-bottom: 100px;
+}
+
+#sub-title {
+  margin-top: 24px;
+  // margin-bottom: 100px;
+  width: 100%;
+  // border: 6px solid red;
+  height: auto;
+  font-family: $font-family-semibold;
+  text-align: left;
+  letter-spacing: 1.09px;
+  font-size: 27px;
+}
+
+#exclusive {
+  // border: 1px solid red;
+  margin-top: 24px;
+  width: 257px;
+  height: 40px;
+  color: #e1e1e2;
+  display: flex;
+}
+
+#exclusive p {
+  // border: 1px solid blue;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  // margin-left: 24px;
+  font-size: 27px;
+  width: 233px;
+  height: 32px;
+  font-family: $font-family-semibold;
+}
+
+.setting-content {
+  // border: 1px solid red;
+  width: 55%;
+}
+.setting-content h1 {
+  font-family: $font-family-bold;
+
+  font-size: 31px;
+}
+
+.lists {
+  margin-bottom: 40.5px;
+  line-height: 1.5;
+  font-size: 27px;
+  font-family: $font-family-regular;
+  color: #c2c4c6;
+}
+
+#titleImage {
+  width: 358px;
+  height: 140px;
+  margin-left: 0%;
+}
+
+#heading {
+  text-align: left;
+}
+
+.setting-content-info{
+  padding: 7% 5% 0% 0%;
+  letter-spacing: 0.64px;
+  color: #FFFFFF99;
+  font-size: 21px;
+  position: relative;
+  top:5%;
+  // overflow: scroll;
+  overflow-y: scroll; /* Allow vertical scrolling */
+  height: 75%;
+  h1{ 
+      position:relative;
+      top:0px;
+      font-family: $font-family-semibold; 
+      font-size: 31px;
+  }
+}
+.setting-content-info::-webkit-scrollbar {
+  width: 3px; /* Width of the scrollbar */
+}
+
+.setting-content-info::-webkit-scrollbar-thumb {
+  background-color: #c2c4c6; /* Color of the thumb (slider) */
+  border-radius: 3px; /* Border radius of the thumb */
+}
+
+.setting-content-info::-webkit-scrollbar-track {
+  background-color: transparent; /* Color of the track */
+}
+@media screen and (max-width: 1280px) {
+  .setting-title {
+    padding-left: 108px;
+    padding-top: 102px;
+  }
+
+  .Title {
+    letter-spacing: 1.64px;
+    font-size: 27.3px;
+  }
+
+  #sub-title {
+    margin-top: 16px;
+    letter-spacing: 0.73px;
+    font-size: 18px;
+  }
+
+  #exclusive {
+    // border: 1px solid red;
+    margin-top: 16px;
+    width: 171.3px;
+    height: 26.7px;
+  }
+
+  #exclusive p {
+    margin-top: 2.7px;
+    margin-bottom: 2.7px;
+    font-size: 18px;
+    width: 155.3px;
+    height: 21.3px;
+  }
+
+  .setting-content-info h1 {
+    font-size: 20.7px;
+  }
+
+  .lists {
+    margin-bottom: 27px;
+    font-size: 18px;
+  }
+
+  #titleImage {
+    width: 238.7px;
+    height: 93.3px;
+  }
+}

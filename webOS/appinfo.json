@@ -1,0 +1,13 @@
+{
+    "vendor": "tarang",
+    "largeIcon": "largeIcon.png",
+    "icon": "icon.png",
+    "main": "index.html",
+    "id": "tarang",
+    "title": "tarang",
+    "type": "web",
+    "resolution": "1920x1080",
+    "version": "1.0.0",
+    "uiRevision": 1,
+    "disableBackHistoryAPI": true
+}

@@ -1,0 +1,139 @@
+@import "../css/constant.scss";
+@mixin paddingItem($p1: 0, $p2: 0, $p3: 0, $p4: 0) {
+  padding: #{$p1 * 8}px #{$p2 * 8}px #{$p3 * 8}px #{$p4 * 8}px;
+}
+@mixin marginItem($m1: 0, $m2: 0, $m3: 0, $m4: 0) {
+  margin: #{$m1 * 8}px #{$m2 * 8}px #{$m3 * 8}px #{$m4 * 8}px;
+}
+
+@mixin h0_fullhd_display_title(){
+  font-size: $h0-fullhd-fontsize;
+  letter-spacing: $h0-fullhd-letterspacing;
+  // line-height: $h0-fullhd-lineheight;
+  
+}
+@mixin h0_hd_display_title(){
+  font-size: $h0-hd-fontsize;
+  letter-spacing: $h0-hd-letterspacing;
+  line-height: $h0-hd-lineheight;
+ 
+}
+@mixin h1_fullhd_display_title() {
+  font-size: $h1-fullhd-fontsize;
+  letter-spacing: $h1-fullhd-letterspacing;
+  line-height: $h1-fullhd-lineheight;
+ 
+}
+
+@mixin h1_hd_display_title() {
+  font-size: $h1-hd-fontsize;
+  letter-spacing: $h1-hd-letterspacing;
+  line-height: $h1-hd-lineheight;
+
+}
+@mixin h2_fullhd_display_title() {
+  font-size: $h1-fullhd-fontsize;
+  letter-spacing: $h1-fullhd-letterspacing;
+  line-height: $h1-fullhd-lineheight;
+ 
+
+}
+
+@mixin h2_hd_display_title() {
+  font-size: $h1-hd-fontsize;
+  letter-spacing: $h1-fullhd-letterspacing;
+  
+  
+}
+@mixin h3_fullhd_display_title() {
+  font-size: $h3-fullhd-fontsize;
+  letter-spacing: $h3-fullhd-letterspacing;
+  line-height: $h3-fullhd-lineheight;
+  color:$row-title-color ;
+ 
+}
+
+@mixin h3_hd_display_title() {
+  font-size: $h3-fullhd-fontsize;
+  letter-spacing: $h3-fullhd-letterspacing;
+ 
+}
+
+@mixin h4_fullhd_display_title() {
+  font-size: $h4-fullhd-fontsize;
+  letter-spacing: $h4-fullhd-letterspacing;
+  line-height: $h4-fullhd-lineheight;
+  color:$display-description-color ;
+  // font-family: $font-family-semibold;
+  // font-weight: $font-weight-medium;
+}
+
+@mixin h4_hd_display_title() {
+  font-size: $h4-hd-fontsize;
+  letter-spacing: $h4-hd-letterspacing;
+  line-height: $h4-hd-lineheight;
+  // font-family: $font-family-semibold;
+}
+@mixin h5_fullhd_display_title() {
+  font-size: $h5-fullhd-fontsize;
+  letter-spacing: $h5-fullhd-letterspacing;
+  line-height: $h5-fullhd-lineheight;
+
+}
+
+@mixin h5_hd_display_title() {
+  font-size: $h5-fullhd-fontsize;
+  letter-spacing: $h5-fullhd-letterspacing;
+  line-height: $h5-fullhd-lineheight;
+
+}
+@mixin h6_fullhd_display_title() {
+  font-size: $h1-fullhd-fontsize;
+  letter-spacing: $h1-fullhd-letterspacing;
+  font-family: $font-family;
+}
+
+@mixin h6_hd_display_title() {
+  font-size: $h1-fullhd-fontsize;
+  letter-spacing: $h1-fullhd-letterspacing;
+}
+
+@mixin flexRow() {
+  display: flex;
+  flex-direction: row;
+  // justify-content: ;
+  // align-items: r;
+}
+@mixin flexColumn() {
+  display: flex;
+  flex-direction: column;
+  // justify-content: ;
+  // align-items: center;
+}
+
+@mixin cardSize($height, $width) {
+  height: $height;
+  width: $width;
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  @include marginItem(0, 2, 1, 0);
+  @include flexRow();
+}
+@mixin cardSizeHD($height, $width){
+  height: $height;
+  width: $width;
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  @include marginItem(0, 1, 1, 0);
+  @include flexRow();
+}
+
+@mixin cardSizeImg($height: 0, $width: 0) {
+  display: block;
+  height: $height;
+  width: $width;
+  object-fit: fill;
+}
+ 

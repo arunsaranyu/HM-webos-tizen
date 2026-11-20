@@ -1,0 +1,85 @@
+.content-container-seeall {
+  overflow: hidden;
+  height: 50vh;
+  scroll-behavior: smooth;
+  z-index: 3;
+}
+
+.card-wrapper-seeall {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-wrapper-vertical-seeall {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .card-block-seeall {
+    height: 630px;
+
+    @media screen and (max-width: 1300px) {
+      height: 420px;
+    }
+  }
+}
+
+.card-block-seeall {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  height: 250px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+
+  @media screen and (max-width: 1300px) {
+    height: 170px;
+  }
+}
+
+.card-seeall-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card-seeall-content:last-child {
+  margin-bottom: 50px;
+}
+
+.seeall-arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+  height: 60px;
+  width: 100%;
+
+  @media screen and (max-width: 1300px) {
+    height: 40px;
+    margin-top: 6px;
+  }
+}
+
+.arrowbtn {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.season-content {
+  position: relative;
+  top: 10%;
+}
+
+@media screen and (max-width: 1300px) {
+  .arrowbtn {
+    height: 40px;
+    width: 40px;
+
+  }
+}
