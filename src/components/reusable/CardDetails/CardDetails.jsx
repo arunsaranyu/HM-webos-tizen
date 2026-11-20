@@ -30,6 +30,17 @@ const CardDetails = (props) => {
         event.currentTarget.src = ph_web_69
     }
 
+    // Content tag (top-right badge) — home page cards only, and only when content_tag is a real string (not null / "NA")
+    const HOME_PAGE_SOURCES = ["home", "movies", "live"]
+    const rawTag = data?.content_tag
+    const contentTag =
+        HOME_PAGE_SOURCES.includes(from) &&
+            typeof rawTag === "string" &&
+            rawTag.trim() !== "" &&
+            rawTag.trim().toUpperCase() !== "NA"
+            ? rawTag.trim()
+            : null
+
     const onClickHandler = () => {
         renderDetails(data, friendly_id, from, navigate, index, display_title, parentdata)
     }
@@ -41,6 +52,7 @@ const CardDetails = (props) => {
                     {data?.access_control?.is_free == false &&
                         <img className="premium-tag" src={tag_premium} alt="" />
                     }
+                    {contentTag && <div className="content-tag">{contentTag}</div>}
                     {!!data.thumbnails && (
                         data?.thumbnails?.medium_16_9?.url
                             ? <img onError={imageOnError16x9} src={data?.thumbnails?.medium_16_9?.url} className='img' alt="" loading="lazy" />
@@ -55,6 +67,7 @@ const CardDetails = (props) => {
                     {data?.access_control?.is_free == false &&
                         <img className="premium-tag" src={tag_premium} alt="" />
                     }
+                    {contentTag && <div className="content-tag">{contentTag}</div>}
                     {!!data.thumbnails && (
                         data?.thumbnails?.medium_16_9?.url
                             ? <img onError={imageOnError16x9} src={data?.thumbnails?.medium_16_9?.url} className='img' alt="" loading="lazy" />

@@ -48,34 +48,11 @@ const Sidebar = (props) => {
     const firstIndex = useSelector((state) => state?.landing?.firstIndex)
 
 
+    // Focus moves into the sidebar, but it stays collapsed (icons only, no titles).
+    // Previously, focusing the sidebar dispatched sidebarToggleTrue(), which expanded it with titles.
     useEffect(() => {
-        if (hasFocusedChild === true) {
-            dispatch(sidebarToggleTrue())
-            setvisisble(true)
-            const handleKeyDown = (event) => {
-
-                if (event.key === 'ArrowLeft') {
-
-
-                    dispatch(sidebarToggleTrue())
-                    setvisisble(true)
-
-
-                } else if (event.key === 'ArrowRight') {
-                    dispatch(sidebarToggleFalse())
-                    setvisisble(false)
-
-                }
-
-            };
-            document.addEventListener('keydown', handleKeyDown);
-            return () => {
-                document.removeEventListener('keydown', handleKeyDown);
-            };
-        } else if (hasFocusedChild === false) {
-            dispatch(sidebarToggleFalse())
-            setvisisble(false)
-        }
+        dispatch(sidebarToggleFalse())
+        setvisisble(hasFocusedChild === true)
     }, [hasFocusedChild])
 
 

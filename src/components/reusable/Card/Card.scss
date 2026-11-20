@@ -265,3 +265,30 @@ background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwAAAAGwCAY
     @include h2_hd_display_title();
   }
 }
+
+// Content tag badge (top-right corner of home page cards)
+.content-tag {
+  position: absolute;
+  right: 0%;
+  z-index: 2;
+  max-width: 60%;
+  padding: 6px 14px;
+  border-radius: 8px;
+  background: #ffffff;
+  color: black;
+  font-family: $font-family-semibold;
+  font-size: 22px;
+  line-height: 1.2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 1300px) {
+  .content-tag {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+}
